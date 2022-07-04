@@ -1,4 +1,3 @@
-
 <template>
   <div class="contents-wrapper">
     <el-header class="">
@@ -11,9 +10,19 @@
       <el-main>
         <el-row>
           <el-col>
-            {{ msg }}
+            <h2>h2</h2>
+            <p>
+              {{ msg }}
+            </p>
           </el-col>
         </el-row>
+        <hr>
+        <el-row>
+          <el-col>
+            <sample-form />
+          </el-col>
+        </el-row>
+        <hr>
         <button-group />
       </el-main>
     </el-container>

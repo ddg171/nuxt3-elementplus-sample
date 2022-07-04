@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/elementPlus.scss'],
   build: {
     transpile: lifecycle === 'build' ? ['element-plus'] : []
-  },
-  plugins: ['~/plugins/elementPlus.ts']
+  }
+  // 勝手に読み込むのでいらない。
+  // plugins: ['~/plugins/elementPlus.ts']
 
 })

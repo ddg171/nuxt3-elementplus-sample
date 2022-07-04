@@ -1,5 +1,5 @@
 <template>
-  <sample-component />
+  <NuxtPage />
 </template>
 <script setup>
 import { ID_INJECTION_KEY } from 'element-plus'
